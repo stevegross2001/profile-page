@@ -1,0 +1,182 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.5rem;
+  color: #1687a7;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #1687a7;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #276678;
+}
+
+hr {
+  border: none;
+  border-top: 5px dotted #c7cfb7;
+  margin: 100px auto 100px auto;
+  width: 5%;
+}
+
+p{
+  line-height: 2;
+}
+
+a:hover{
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+/************** CLASS SELECTORS **************/
+
+.top-container {
+  background-color: #d3e0ea;
+  position: relative;
+  padding-top: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 75%;
+}
+
+.skill-img1{
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.infa-img{
+  position: relative;
+  bottom: 50px;
+}
+
+.skill-img2{
+  float: right;
+  margin-left: 30px;
+  width: 35%;
+}
+
+.bootcamp-img{
+  position: relative;
+  margin: auto;
+}
+
+.skill-img3{
+  float: left;
+  margin-right: 30px;
+  width: 35%;
+}
+
+.fit-scuba{
+  width: 20%;
+}
+
+.fit-trucking{
+  width: 50%;
+}
+
+.fit-pilot{
+  width: 20%;
+}
+
+.middle-container {
+}
+
+.profile{
+  margin-top: 50px;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+.bottom-container {
+  background-color: #1687a7;
+  padding: 50px 0 20px;
+}
+
+.contact-me{
+  width: 50%;
+  margin: 40px auto 60px;
+}
+
+.footer-link{
+  color: #d3e0ea;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.copyright{
+  color: #d3e0ea;
+  font-size: 0.75rem;
+  margin-top: 30px;
+}
+
+/*****************  Button CSS  *****************/
+.BUTTON_MYR {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   height: 0;
+   line-height: 0;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   width: 145px;
+   font-size: 21px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #1687A7;
+   -webkit-box-shadow: 0 0 0 0 #000000;
+   -moz-box-shadow: 0 0 0 0 #000000;
+   box-shadow: 0 0 0 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 40px;
+}
+
+.BUTTON_MYR:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
